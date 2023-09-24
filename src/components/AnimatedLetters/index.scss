@@ -1,0 +1,63 @@
+.text-animate {
+  opacity: 0;
+  animation: bounceIn;
+  animation-duration: 0.2s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+}
+
+.text-animate-hover {
+  min-width: 10px;
+  animation-fill-mode: both;
+
+  &:hover {
+    animation: rubberBand 1s;
+    color: #ffd700;
+  }
+}
+
+@for $i from 1 through 35 {
+  .text-animate._#{$i} {
+    animation-delay: #{$i / 10}s;
+  }
+}
+
+.text-animate,
+.text-animate-hover {
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 768px) {
+  .home-page {
+    .text-zone {
+      margin-left: 50px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin-bottom: 25px;
+      white-space: nowrap;
+
+      &:before,
+      &:after {
+        font-size: 8px;
+      }
+
+      .intro img {
+        width: 80px;
+      }
+    }
+
+    h2 {
+      font-size: 12px;
+      margin-top: 100px;
+    }
+
+    .flat-button {
+      font-size: 10px;
+      padding: 5px 10px;
+      margin-top: 20px;
+    }
+  }
+}

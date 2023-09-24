@@ -1,0 +1,54 @@
+.skills-zone {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30%;
+  vertical-align: middle;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: start;
+  max-height: 80%;
+}
+
+.skill {
+  margin: 10px;
+  padding: 18px;
+  color: #ffd700;
+  font-family: 'Helvetica Neue';
+  border-radius: 3px;
+  opacity: 0;
+  animation: fade-in 1s forwards;
+  animation-delay: 1s;
+  width: fit-content;
+  box-sizing: border-box;
+  font-size: 1.8em;
+}
+
+@media screen and (max-width: 768px) {
+  .skills-zone {
+    position: relative;
+    top: initial;
+    transform: none;
+    width: 38%;
+    margin-top: 95%;
+    margin-left: 19%;
+    height: 12%;
+  }
+
+  .skill {
+    font-size: 1em; 
+    padding: 4px; 
+    margin: 5px; 
+    color: #ffd700;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
