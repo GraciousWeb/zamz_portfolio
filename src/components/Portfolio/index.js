@@ -37,13 +37,13 @@ const Portfolio = () => {
       image: flickr,
       url: 'https://kelly96e.github.io/java22-js-slutprojekt-shkelqim-gashi/',
     },
-    {
-      name: 'Hyperskill Certificate',
-      description:
-        'Solved 1,407 problems and mastered 251 topics, covering most concepts of Java. Completed 8 projects, earning the Developer Certificate from Hyperskill, endorsed by JetBrains Academy.',
-      image: certificate,
-      url: 'https://github.com/kelly96E/HyperSkill-Projects',
-    },
+    // {
+    //   name: 'Hyperskill Certificate',
+    //   description:
+    //     'Solved 1,407 problems and mastered 251 topics, covering most concepts of Java. Completed 8 projects, earning the Developer Certificate from Hyperskill, endorsed by JetBrains Academy.',
+    //   image: certificate,
+    //   url: 'https://github.com/kelly96E/HyperSkill-Projects',
+    // },
   ]);
 
   const [isLoading, setIsLoading] = useState(true);
