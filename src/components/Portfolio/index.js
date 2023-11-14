@@ -1,41 +1,41 @@
 import React, { useState, useEffect } from 'react';
 import Loader from 'react-loaders';
 import './index.scss';
-import cookbook from '../../assets/images/portfolio/cook-book.png';
-import webshop from '../../assets/images/portfolio/Webshop.png';
-import calendar from '../../assets/images/portfolio/Calendar.png';
-import flickr from '../../assets/images/portfolio/flickr.png';
+import Adire from '../../assets/images/portfolio/Adire.png';
+import safari from '../../assets/images/portfolio/safari.png';
+import wakanow from '../../assets/images/portfolio/wakanow.png';
+import airtimeCash from '../../assets/images/portfolio/airtime-cash.png';
 import certificate from '../../assets/images/portfolio/hyperskill-certificate.png';
 
 const Portfolio = () => {
   const [projects, setProjects] = useState([
     {
-      name: 'Project Cookbook',
+      name: 'Project Adire',
       description:
-        'This is a recipe book web application developed using the Spring framework, JS and MySQL, together with a team of 4 people. Soon ready to be launched..',
-      image: cookbook,
-      url: 'https://github.com/Okafor-Samuel/RecipeBookMVC.git',
+        'Streamlines customer management, order tracking, and decision-making. Tailored for tailors of all sizes, it boosts productivity with an intuitive, user-friendly interface.',
+      image: Adire,
+      url: 'https://adire1.vercel.app/',
     },
     {
-      name: 'Project Webshop',
+      name: 'Project Wakanow',
       description:
-        'This is my final project for an advanced JS course, where I created a webshop using React and Firebase.',
-      image: webshop,
-      url: 'https://kelly96e.github.io/java22-avjs-slutprojekt-shkelqim-gashi/',
+        'Explore props for film/theater like cars, set decor. Connect with production companies for equipment and collaboration.',
+      image: wakanow,
+      url: 'https://www.wakacast.com/',
     },
     {
-      name: 'Project Calendar',
+      name: 'Project Safari',
       description:
-        'This is my final project for a Java course, where I developed a weekly calendar application using Java and the Swing framework.',
-      image: calendar,
-      url: 'https://github.com/kelly96E/JAVA22-java1-slutprojekt-shkelqim-gashi',
+        'A versatile ecommerce platform offering diverse products, seamless transactions, and a user-friendly experience for online shoppers globally.',
+      image: safari,
+      url: 'https://safari-store.vercel.app/home#',
     },
     {
-      name: 'Project Flickr',
+      name: 'Project Airtime To Cash',
       description:
-        'I created a Flickr photo search web app for my final project in JavaScript course, showcasing my skills in dynamic user interface design and using APIs.',
-      image: flickr,
-      url: 'https://kelly96e.github.io/java22-js-slutprojekt-shkelqim-gashi/',
+        'An app to convert airtime to cash, offering convenience and ease for users to exchange mobile credit for money.',
+      image: airtimeCash,
+      url: 'https://airtimetocashpodg.netlify.app/#about-us',
     },
     // {
     //   name: 'Hyperskill Certificate',
