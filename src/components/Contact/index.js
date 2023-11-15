@@ -24,7 +24,6 @@ const Contact = () => {
         maxZoom: 19,
       }).addTo(map);
 
-      const marker = L.marker([6.4430381, 3.5399646]).addTo(map);
     }
 
     return () => {

@@ -80,7 +80,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="#"
+            href="discord.com"
           >
             <FontAwesomeIcon icon={faDiscord} color="#4d4d4e" />
           </a>

@@ -7,7 +7,7 @@ import wakanow from '../../assets/images/portfolio/wakanow.png';
 import airtimeCash from '../../assets/images/portfolio/airtime-cash.png';
 
 const Portfolio = () => {
-  const [projects, setProjects] = useState([
+  const [projects] = useState([
     {
       name: 'Project Love-Fashion Backend',
       description:
