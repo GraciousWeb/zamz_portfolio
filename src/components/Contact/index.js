@@ -115,13 +115,13 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Samuel Okafor,
+          Grace Onuoha,
           <br />
           Nigeria,
           <br />
           Orchid Road, Lekki-Peninsula, <br />
           Lagos. <br />
-          <span>okaforsamuel100@gmail.com</span>
+          <span>graceonuoha302@gmail.com</span>
         </div>
         <div ref={mapRef} className="map-wrap"></div>
       </div>

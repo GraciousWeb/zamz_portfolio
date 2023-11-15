@@ -15,7 +15,7 @@ const Skills = () => {
     'Postgres',
     'Servlet',
     'JSP',
-    'XML',
+    'J2EE',
     'Scrum',
     'Bootstrap',
     'Agile methods',
@@ -27,6 +27,8 @@ const Skills = () => {
     'API',
     'Postman',
     'Kanban',
+    'Docker',
+    'Microservices'
   ];
   const [letterClass, setLetterClass] = useState('text-animate');
 

@@ -5,30 +5,29 @@ import Adire from '../../assets/images/portfolio/Adire.png';
 import safari from '../../assets/images/portfolio/safari.png';
 import wakanow from '../../assets/images/portfolio/wakanow.png';
 import airtimeCash from '../../assets/images/portfolio/airtime-cash.png';
-import certificate from '../../assets/images/portfolio/hyperskill-certificate.png';
 
 const Portfolio = () => {
   const [projects, setProjects] = useState([
     {
-      name: 'Project Adire',
+      name: 'Project Love-Fashion Backend',
       description:
-        'Streamlines customer management, order tracking, and decision-making. Tailored for tailors of all sizes, it boosts productivity with an intuitive, user-friendly interface.',
+        ' A digital platform that empowers individuals and organizations to craft, manage, and share fashion-related articles and updates.        ',
       image: Adire,
-      url: 'https://adire1.vercel.app/',
-    },
-    {
-      name: 'Project Wakanow',
-      description:
-        'Explore props for film/theater like cars, set decor. Connect with production companies for equipment and collaboration.',
-      image: wakanow,
-      url: 'https://www.wakacast.com/',
+      url: 'https://github.com/GraciousWeb/Love-Fashion',
     },
     {
       name: 'Project Safari',
       description:
+        'Explore props for film/theater like cars, set decor. Connect with production companies for equipment and collaboration.',
+      image: wakanow,
+      url: 'https://github.com/GraciousWeb/Shopper',
+    },
+    {
+      name: 'Project Shopper Backend',
+      description:
         'A versatile ecommerce platform offering diverse products, seamless transactions, and a user-friendly experience for online shoppers globally.',
       image: safari,
-      url: 'https://safari-store.vercel.app/home#',
+      url: 'https://github.com/GraciousWeb/Shopper',
     },
     {
       name: 'Project Airtime To Cash',
@@ -37,13 +36,7 @@ const Portfolio = () => {
       image: airtimeCash,
       url: 'https://airtimetocashpodg.netlify.app/#about-us',
     },
-    // {
-    //   name: 'Hyperskill Certificate',
-    //   description:
-    //     'Solved 1,407 problems and mastered 251 topics, covering most concepts of Java. Completed 8 projects, earning the Developer Certificate from Hyperskill, endorsed by JetBrains Academy.',
-    //   image: certificate,
-    //   url: 'https://github.com/kelly96E/HyperSkill-Projects',
-    // },
+  
   ]);
 
   const [isLoading, setIsLoading] = useState(true);

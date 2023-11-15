@@ -33,9 +33,9 @@ const About = () => {
             />
           </h1>
           <p>
-            As an aspiring System Developer, I'm fueled by technological advancement
-            and innovation, constantly evolving, embracing new technologies,
-            and embracing personal project challenges.
+          Hello, I'm Grace Onuoha, a passionate and detail-oriented software developer based in Nigeria.
+           With a background in Java programming and a flair for creating innovative solutions,
+           I thrive in dynamic and collaborative environments.
           </p>
           <br />
           <p>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import './index.scss';
-import LogoS from '../../assets/images/logo-k.jpg';
+import LogoS from '../../assets/images/logo-s.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHome,
@@ -62,7 +62,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/samuelokafor1/"
+            href="https://www.linkedin.com/in/grace-onuoha-07b78b268/"
           >
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
@@ -71,7 +71,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/Okafor-Samuel"
+            href="https://github.com/GraciousWeb"
           >
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
@@ -80,7 +80,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://discord.com/channels/@me"
+            href="#"
           >
             <FontAwesomeIcon icon={faDiscord} color="#4d4d4e" />
           </a>

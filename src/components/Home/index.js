@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import LogoTitle from '../../assets/images/logo-k.jpg';
+import LogoTitle from '../../assets/images/logo-s.png';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
@@ -8,9 +8,9 @@ import './index.scss';
 const Home = () => {
   const [letterClass, setletterClass] = useState('text-animate');
 
-  const nameArray = ['a', 'm', 'u', 'e', 'l', ','];
+  const nameArray = ['r', 'a', 'c', 'e', ','];
   const hiArray = ['H', 'i', ','];
-  const imArray = ['I', "'", 'm'];
+  const imArray = ['I', "'", 'm ', " "];
   const systemDeveloperArray = [
     'A',
     ' ',
