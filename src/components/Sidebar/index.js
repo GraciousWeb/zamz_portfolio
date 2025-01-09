@@ -62,7 +62,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="#"
+            href="https://www.instagram.com/invites/contact/?i=1otj2sbbfl0tm&utm_content=i8fel87"
           >
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
@@ -71,7 +71,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://github.com/GraciousWeb"
+            href="https://www.tiktok.com/@zamzkitchenandsurpises?_t=8s13MgbUioQ&_r=1"
           >
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
           </a>
