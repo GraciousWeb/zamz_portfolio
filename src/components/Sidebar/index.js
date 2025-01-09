@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import {NavLink, useLocation } from 'react-router-dom';
 import './index.scss';
 // import LogoS from '../../assets/images/logo-s.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
