@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-// import LogoTitle from '../../assets/images/logo-s.png';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
@@ -60,7 +59,6 @@ const Home = () => {
                 strArray={imArray}
                 delay={1 + hiArray.length * 0.1}
               />
-              {/*<img src={LogoTitle} alt="developer" />*/}
               <AnimatedLetters
                 wrapperClass="nameWrapper"
                 letterClass={letterClass}

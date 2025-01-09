@@ -22,9 +22,6 @@ const Sidebar = () => {
 
   return (
     <div className={`nav-bar ${isPortfolioPage ? 'portfolio' : ''}`}>
-      {/*<Link className="logo" to="/">*/}
-      {/*  <img src={LogoS} alt="logo" />*/}
-      {/*</Link>*/}
 
       <nav>
         <NavLink exact activeClassName="active" to="/">
