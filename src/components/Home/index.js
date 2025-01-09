@@ -70,7 +70,7 @@ const Home = () => {
               letterClass={letterClass}
               strArray={systemDeveloperArray}
               delay={
-                1 + (hiArray.length + imArray.length + nameArray.length) * 0.1
+                1 + (hiArray.length + imArray.length + " " + nameArray.length) * 0.1
               }
             />
           </h1>
