@@ -66,10 +66,8 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I'm always open to new opportunities, collaborations, and
-            interesting projects. Whether you're looking to build a web
-            application, or just want to chat about tech, I'd love to hear from
-            you.
+            I'm always open to new opportunities, collaborations, and exciting projects.
+            Whether you’re looking to build a strong online presence, launch a creative social media campaign, or simply chat about digital marketing trends, I’d love to connect with you!
           </p>
           <div className="contact-form">
             <div>
@@ -114,13 +112,13 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Grace Onuoha,
+          Peterson Chinaza,
           <br />
           Nigeria,
           <br />
-          Orchid Road, Lekki-Peninsula, <br />
-          Lagos. <br />
-          <span>graceonuoha302@gmail.com</span>
+         Old GRA, Portharcourt, <br />
+          Nigeria. <br />
+          <span>zamzempire@gmail.com</span>
         </div>
         <div ref={mapRef} className="map-wrap"></div>
       </div>

@@ -33,13 +33,13 @@ const About = () => {
             />
           </h1>
           <p>
-          Hello, I'm Grace Onuoha, a passionate and detail-oriented software developer based in Nigeria.
-           With a background in Java programming and a flair for creating innovative solutions,
-           I thrive in dynamic and collaborative environments.
+          Hello, I'm Peterson Chinaza, a passionate and detail-oriented Social Media Manager based in Nigeria.
+            I have ample experience experience in crafting impactful social media strategies, creating engaging content, and growing online communities.
+            Proficient in platforms like Instagram, Facebook, Twitter, and Tiktok, I specialize in driving brand awareness, increasing engagement, and delivering measurable ROI through innovative campaigns.
           </p>
           <br />
           <p>
-            I'm committed to becoming a versatile asset in the tech industry.
+            I'm committed to becoming a versatile asset in the social media industry.
             Excited to build amazing things - let's connect and innovate
             together!
           </p>
