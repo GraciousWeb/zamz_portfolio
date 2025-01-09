@@ -62,7 +62,7 @@ const Sidebar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.linkedin.com/in/grace-onuoha-07b78b268/"
+            href="#"
           >
             <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
           </a>
