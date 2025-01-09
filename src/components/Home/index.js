@@ -9,7 +9,6 @@ const Home = () => {
 
   const nameArray = [' ', 'Z', 'a', 'm', 'z'];
   const hiArray = ['H', 'i', ','];
-  const imArray = ['I', "'", 'm ', " "];
   const systemDeveloperArray = [
     'A',
     ' ',
@@ -56,21 +55,20 @@ const Home = () => {
             <span className="intro">
               <AnimatedLetters
                 letterClass={letterClass}
-                strArray={imArray}
                 delay={1 + hiArray.length * 0.1}
               />
               <AnimatedLetters
                 wrapperClass="nameWrapper"
                 letterClass={letterClass}
                 strArray={nameArray}
-                delay={1 + (hiArray.length + imArray.length) * 0.1}
+                delay={1 + (hiArray.length) * 0.1}
               />
             </span>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={systemDeveloperArray}
               delay={
-                1 + (hiArray.length + imArray.length + " " + nameArray.length) * 0.1
+                1 + (hiArray.length + nameArray.length) * 0.1
               }
             />
           </h1>
