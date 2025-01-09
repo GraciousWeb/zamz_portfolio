@@ -8,7 +8,7 @@ import './index.scss';
 const Home = () => {
   const [letterClass, setletterClass] = useState('text-animate');
 
-  const nameArray = ['r', 'a', 'c', 'e', ','];
+  const nameArray = ['C', 'h', 'i', 'n', 'a', 'z', 'a', ','];
   const hiArray = ['H', 'i', ','];
   const imArray = ['I', "'", 'm ', " "];
   const systemDeveloperArray = [
@@ -60,7 +60,7 @@ const Home = () => {
                 strArray={imArray}
                 delay={1 + hiArray.length * 0.1}
               />
-              <img src={LogoTitle} alt="developer" />
+              {/*<img src={LogoTitle} alt="developer" />*/}
               <AnimatedLetters
                 wrapperClass="nameWrapper"
                 letterClass={letterClass}
@@ -76,7 +76,7 @@ const Home = () => {
               }
             />
           </h1>
-          <h2>FullStack Developer</h2>
+          <h2>Social Media Manager</h2>
           <Link to="/contact" className="flat-button">
             {' '}
             CONTACT ME{' '}
