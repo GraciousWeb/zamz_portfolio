@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import './index.scss';
-import LogoS from '../../assets/images/logo-s.png';
+// import LogoS from '../../assets/images/logo-s.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHome,
@@ -22,9 +22,9 @@ const Sidebar = () => {
 
   return (
     <div className={`nav-bar ${isPortfolioPage ? 'portfolio' : ''}`}>
-      <Link className="logo" to="/">
-        <img src={LogoS} alt="logo" />
-      </Link>
+      {/*<Link className="logo" to="/">*/}
+      {/*  <img src={LogoS} alt="logo" />*/}
+      {/*</Link>*/}
 
       <nav>
         <NavLink exact activeClassName="active" to="/">
