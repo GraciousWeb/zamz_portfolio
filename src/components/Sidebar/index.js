@@ -1,7 +1,6 @@
 import React from 'react';
 import {NavLink, useLocation } from 'react-router-dom';
 import './index.scss';
-// import LogoS from '../../assets/images/logo-s.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHome,
