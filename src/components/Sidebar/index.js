@@ -70,7 +70,7 @@ const Sidebar = () => {
             rel="noreferrer"
             href="https://www.tiktok.com/@barbiezamz?_t=ZM-8tCw5ZFefzC&_r=1"
           >
-            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+            {/*<FontAwesomeIcon icon={faGithub} color="#4d4d4e" />*/}
             <FontAwesomeIcon icon="fa-brands fa-tiktok" color="#4d4d4e" />
           </a>
         </li>
